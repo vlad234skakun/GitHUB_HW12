@@ -1,0 +1,182 @@
+    1  git --version
+    2  git config --global -l
+    3  git config --global user.name "Vladyslav Skakun"
+    4  git config --global user.email "vskakun275l@gmail.com"
+    5  git config --global -l
+    6  git config --global -l
+    7  ls 
+    8  cd Users
+    9  cd /Users
+   10  cd /Git
+   11  cd Git
+   12  cd ..
+   13  ls 
+   14  cd 
+   15  ls 
+   16  mkdir git_intro
+   17  cd git_intro
+   18  cd ..
+   19  cd Photo for ST
+   20  ls
+   21  cd git_intro
+   22  cp /Users/Admin/Photo_for_ST ./Herunterladen.jpg
+   23  ls
+   24  cp /Photo_for_ST ./Herunterladen.jpg
+   25  cd 
+   26  cd Photo_for_ST
+   27  ls 
+   28  cd git_intro
+   29  cp ../Photo_for_ST/* .
+   30  ls 
+   31  git init
+   32  git add ../Photo_for_ST/* .
+   33  ls
+   34  git status
+   35  git add Photo1.jpg Photo2.jpg
+   36  git status
+   37  git commit -m "Added photo"
+   38  git branch -M main
+   39  git remote add origin git@github.com:vlad234skakun/git_intro.git
+   40  git remote -v
+   41  git push -u irigin main
+   42  git push -u origin main 
+   43  yes
+   44  cd git_intro
+   45  ls
+   46  git status
+   47  git remote
+   48  git add Photo1.jpg
+   49  git status
+   50  git init
+   51  git add Photo1.jpg
+   52  git status
+   53  ды 
+   54  ls 
+   55  git add Photo1.jpg
+   56  git status
+   57  git ls-files
+   58  git commit -m "Added photo"
+   59  git push -u origin main 
+   60  mkdir git-branch
+   61  pwd
+   62  cd git-branch
+   63  git init
+   64  git branch
+   65  git branch gitignore
+   66  пgit checkout -b gitignore
+   67  git checkout -b gitignore
+   68  touch .gitignore
+   69  ls
+   70  ls 
+   71  pwd
+   72  vim gitignore
+   73  ls
+   74  git branch
+   75  git add .gitignore
+   76  git status
+   77  gir commit -m "Add a file .gitignore"
+   78  git add gitignore
+   79  git status
+   80  git commit -m "add a file"
+   81  git remote add origin https://github.com/vlad234skakun/git-branch.git
+   82  git remote -v
+   83  git push -u origin gitignore
+   84  git push -u origin gitignore git@github.com:vlad234skakun/git-branch.git
+   85  git push -u origin git@github.com:vlad234skakun/git-branch.git
+   86  git push -u origin git@github.com:vlad234skakun/git-branch.git
+   87  git remote add origin gitignore https://github.com/vlad234skakun/git-branch.git
+   88  git push add origin gitignore https://github.com/vlad234skakun/git-branch.git
+   89  git remove -v
+   90  git status
+   91  ls
+   92  cd git-branch
+   93  git branch
+   94  git status
+   95  git remote add origin https://github.com/vlad234skakun/git-branch.git~
+   96  git remote -v
+   97  ls 
+   98  cat gitignore 
+   99  ls 
+  100  git status 
+  101  git add gitignore
+  102  git status
+  103  ls -a
+  104  git status
+  105  git commit -m 'add a file'
+  106  git push -u origin gitignore
+  107  find / -type d -name "Telegram"
+  108  find / -type d -name "Telegram" 2>/dev/null
+  109  find ~/ -type d -name "Telegram"
+  110  ls 
+  111  mkdir papkatest
+  112  cd papkatest
+  113  ls
+  114  pwd
+  115  touch test.txt
+  116  vim test.txt
+  117  chmod 444 test.txt
+  118  ls -l test.txt
+  119  vim test.txt
+  120  touch index.html
+  121  touch style.css
+  122  touch main.js
+  123  ls 
+  124  mkdir HW15
+  125  cd HW15
+  126  touch index.html
+  127  touch style.css
+  128  touch main.js
+  129  ls 
+  130  gir clone https://github.com/vlad234skakun/GitHUB_HW12..git
+  131  git clone https://github.com/vlad234skakun/GitHUB_HW12..git
+  132  git clone git@github.com:vlad234skakun/GitHUB_HW12.git
+  133  [200~git clone https://github.com/vlad234skakun/GitHUB_HW12.git
+  134  git clone https://github.com/vlad234skakun/GitHUB_HW12..git
+  135  git clone git@github.com:vlad234skakun/GitHUB_HW12..git
+  136  git clone git@github.com:vlad234skakun/GitHUB_HW12.git
+  137  ssh-add -l
+  138  [200~ls ~/.ssh
+  139  ls ~/.ssh
+  140  ssh -T git@github.com
+  141  git clone git@github.com:vlad234skakun/GitHUB_HW12.git
+  142  git clone https://github.com/vlad234skakun/GitHUB_HW12..git
+  143  git clone git@github.com:vlad234skakun/GitHUB_HW12.git
+  144  ls
+  145  cd GitHUB_HW12
+  146  git status
+  147  git checkout -b "feature"
+  148  ls
+  149  touch "readme.md"
+  150  git status
+  151  ls
+  152  git add "readme,md"
+  153  git ststus
+  154  git add "readme.md"
+  155  git status
+  156  [200~Admin@DESKTOP-JFG9HC6 MINGW64 ~/GitHUB_HW12 (feature)
+  157  $ touch "readme.md"
+  158  Admin@DESKTOP-JFG9HC6 MINGW64 ~/GitHUB_HW12 (feature)
+  159  $ git status
+  160  On branch feature
+  161  nothing to commit, working tree clean
+  162  echo "This is a README file" > readme.md
+  163  git status
+  164  git add "readme.md"
+  165  git status
+  166  ls 
+  167  git clone git@github.com:vlad234skakun/GitHUB_HW12.git
+  168  cd GitHUB_HW12
+  169  git checkout -b feature
+  170  ls
+  171  ls -a
+  172  vim README.md
+  173  git add README.md
+  174  git status
+  175  git commit -m "Добавлен текст в README.md"
+  176  git push -u origin feature
+  177  git commit --amend -m "Добавлены изменения в файл README.md (amend)"
+  178  git push origin feature --force
+  179  git checkout main
+  180  git merge feature 
+  181  git push origin main 
+  182  history > history.txt
